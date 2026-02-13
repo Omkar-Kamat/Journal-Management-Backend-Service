@@ -10,6 +10,8 @@ import java.util.Date;
 
 @Document(collection = "Journals")
 @Data
+@Getter
+@Setter
 @NoArgsConstructor
 public class JournalEntry {
 

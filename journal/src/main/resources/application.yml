@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: journal app
+  data:
+    mongodb:
+      auto-index-creation: true
+
+  mongodb:
+    uri: mongodb+srv://mail4omkarkamat_db_user:ZfQzFXQfP1Djcq65@cluster0.0mzvu8d.mongodb.net/?appName=Cluster0
+    database: journal
+
